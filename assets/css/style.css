@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Museo Sans 100";
+  	src: url("museo_100/8954f2b56c8e8ad57b0763ea6ee0aa29.eot"); /* IE9*/
+  	src: url("museo_100/8954f2b56c8e8ad57b0763ea6ee0aa29.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  	url("museo_100/8954f2b56c8e8ad57b0763ea6ee0aa29.woff2") format("woff2"), /* chrome、firefox */
+  	url("museo_100/8954f2b56c8e8ad57b0763ea6ee0aa29.woff") format("woff"), /* chrome、firefox */
+  	url("museo_100/8954f2b56c8e8ad57b0763ea6ee0aa29.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  	url("museo_100/8954f2b56c8e8ad57b0763ea6ee0aa29.svg#Museo Sans Cyrl W03 100") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('museosans_500/MuseoSans_500-webfont.woff2') format('woff2'),
+         url('museosans_500/MuseoSans_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.site-content {
+	background: #f7f7f7;
+	padding-top: 2em;
+}
+
+.logo{
+	text-align: center;
+}
+
+.content-spacing{
+	padding-top: 17.5em;
+}
+
+.header-text .title1 {
+	font-family: 'Museo Sans 100', Arial, sans-serif;
+	color: #0e7e6a;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.header-text .title2 {
+	font-family: 'Museo Sans 500', Arial, sans-serif;
+	color: #0e7e6a;
+	font-weight: 900;
+	font-size: 100px; 
+}
+
+.link{
+	padding-top: 5em;
+}
+
+.link a{
+	color: #000;
+	text-decoration: none;
+	font-size: 50px;
+}
+
