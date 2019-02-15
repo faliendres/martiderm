@@ -139,3 +139,38 @@ button:hover {
 	font-size: 24px;
 	font-weight: bold;
 }
+
+.tab-cover{
+	width: 80%;
+	font-size: 9px;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #f9b234;
+	background-color: white;
+	 padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-height: 20px;
+}
+
+.tab-relate{
+	width: 50%;
+	font-size: 9pt;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #f9b234;
+	background-color: #eee;
+	 padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-height: 20px;
+    color: black;
+}

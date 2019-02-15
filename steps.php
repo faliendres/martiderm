@@ -12,9 +12,10 @@
 		</div>
 		<br><br>
 		<div class="row answer-container text-center" >
-			<button type="button" class="button" onclick="nextPrev(1)">NO</button>
-    		<button type="button" class="button" onclick="nextPrev(1)">SI</button>
-
+			<button class="tab-relate">Hidratación intensiva</button>  
+			<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
+			<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
+			<button type="button" class="tab-relate" >Despigmentante</button>
 		</div>
 	</div>
 </div>
@@ -48,6 +49,7 @@
   				<input type="radio" name="pregunta_3" value="12"> 12&nbsp;&nbsp;&nbsp;&nbsp;
   				<input type="radio" name="pregunta_3" value="9"> 9&nbsp;&nbsp;&nbsp;&nbsp;
 			</div>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -60,6 +62,7 @@
 			</div>
 		</div>
 		<div class="row answer-container">
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -72,6 +75,7 @@
 			</div>
 		</div>
 		<div class="row answer-container">
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -84,11 +88,12 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
-				<a class="button" >Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</a>
-				<a class="button" >Tiene <b>buenas promociones y precios competitivos</b>.</a>
-				<a class="button" >Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y<br>bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</a>
-				<a class="button" >Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</a>
+				<a class="tab-cover" >Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</a>
+				<a class="tab-cover" >Tiene <b>buenas promociones y precios competitivos</b>.</a>
+				<a class="tab-cover" >Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y<br>bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</a>
+				<a class="tab-cover" >Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</a>
 			</div>
+<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -104,6 +109,7 @@
 				<input type="radio" name="question_5" value="1"> Verdadero&nbsp;&nbsp;
   				<input type="radio" name="question_5" value="0"> Falso&nbsp;&nbsp;
 			</div>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -116,6 +122,7 @@
 		</div>
 		<div class="row answer-container">
 			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -128,6 +135,7 @@
 		</div>
 		<div class="row answer-container">
 			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -139,6 +147,13 @@
 			</div>
 		</div>
 		<div class="row answer-container">
+			<div class="col-md-12 text-center">
+				<a class="button cover" >Hidratación intensiva</a>
+				<a class="button cover" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM
+</a>
+				<a class="button cover" >Efecto antifatiga inmediato</a>
+				<a class="button cover" >Despigmentante</a>
+			</div>
 		</div>
 	</div>
 </div>
