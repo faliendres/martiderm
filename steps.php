@@ -6,16 +6,14 @@
 <div class="tab">
   <div class="wizard-step">
 		<div class="row">
-			<div class="col-md-12 text-center questions">
+			<div class="col-md-12 text-center">
 				<span class="title1">¿TRABAJAS EN UNA<br><b>FARMACIA</b>?</span>
 			</div>
 		</div>
-		<div class="row answer-container">
-			<div class="col-md-12 text-center">
-				<a class="button">SI</a>
-				<a class="button">NO</a>
-			</div>
-			
+		<br><br>
+		<div class="row answer-container text-center" >
+			<button type="button" class="button" >NO</button>
+    		<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -36,12 +34,7 @@
 	</div>
 </div>
 
-<div style="overflow:auto;">
-  <div style="float:right;">
-    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Anterior</button>
-    <button type="button" id="nextBtn" onclick="nextPrev(1)">Siguiente</button>
-  </div>
-</div>
+
 
 <?php
 	include 'footer.php';

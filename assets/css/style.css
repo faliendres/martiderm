@@ -29,16 +29,15 @@ body {
 	width: 400px;
 	margin: 0 auto;
 	background-color: white;
-	
+	background-image: url('../img/quizz-app-2.jpg');
+	background-size: cover;
 }
 
 #regForm {
-  background-color: #ffffff;
+  
   margin: 100px auto;
   font-family: Raleway;
-  padding: 40px;
-  width: 70%;
-  min-width: 300px;
+  min-height: 500px;
 }
 
 h1 {
@@ -101,3 +100,22 @@ button:hover {
 .step.finish {
   background-color: #4CAF50;
 }
+
+.logo{
+	padding-top: 20px;
+	margin: 0 auto;
+	float:none;
+}
+
+.button {
+	font-family: "Museo Sans 100";
+    background-color: #f9b234;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
