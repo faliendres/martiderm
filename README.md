@@ -1,2 +1,2 @@
-# martiderm
+# MartiDerm
 Quiz
