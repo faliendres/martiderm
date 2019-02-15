@@ -54,3 +54,35 @@
 	font-size: 50px;
 }
 
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+.questions .title1 {
+	font-family: "Museo Sans 100";
+	font-size: 100px;
+}
+
+.answer-container{
+	background-image: url(assets/img/quizz-app-2.jpg);
+}
+
+.button {
+	font-family: "Museo Sans 100";
+ 	background-color: #f9b234;
+ 	border: none;
+ 	color: white;
+ 	padding: 35px 140px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 50px;
+ 	margin: 4px 2px;
+ 	cursor: pointer;
+}

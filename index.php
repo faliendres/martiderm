@@ -11,7 +11,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12 text-center link">
-			<h2><b><a href="step1.php">HAZ CLICK AQUÍ</a></b></h2>
+			<h2><b><a href="steps.php">HAZ CLICK AQUÍ</a></b></h2>
 		</div>
 	</div>
 	<div class="row">
