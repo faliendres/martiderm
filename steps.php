@@ -12,10 +12,12 @@
 		</div>
 		<br><br>
 		<div class="row answer-container text-center" >
+
 			<button class="tab-relate">Hidratación intensiva</button>  
 			<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
 			<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
 			<button type="button" class="tab-relate" >Despigmentante</button>
+
 		</div>
 	</div>
 </div>
@@ -29,8 +31,9 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
-				<a class="button" onclick="nextPrev(1)">SI</a>
-				<a class="button" onclick="nextPrev(1)">NO</a>
+				<button type="button" class="button p_2" onclick="nextPrev(1)" value="1">SI</button>
+				<button type="button" class="button p_2" onclick="nextPrev(1)" value="0">NO</button>
+				<input type="hidden" name="pregunta_2" id="pregunta_2">
 			</div>
 		</div>
 	</div>
@@ -44,10 +47,20 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
-				<input type="radio" name="pregunta_3" value="6"> 6&nbsp;&nbsp;&nbsp;&nbsp;
-  				<input type="radio" name="pregunta_3" value="8"> 8&nbsp;&nbsp;&nbsp;&nbsp;
-  				<input type="radio" name="pregunta_3" value="12"> 12&nbsp;&nbsp;&nbsp;&nbsp;
-  				<input type="radio" name="pregunta_3" value="9"> 9&nbsp;&nbsp;&nbsp;&nbsp;
+  				<label class="radio-inline">
+			    	<input type="radio" name="optradio" value="6">&nbsp;6
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" value="8">&nbsp;8
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" value="12">&nbsp;12
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" value="9">&nbsp;9
+			    </label>
+  				<br>
+  				<button class="button" type="button" id="nextBtn" onclick="nextPrev(1)">Siguiente</button>
 			</div>
 			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
