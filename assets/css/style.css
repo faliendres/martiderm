@@ -213,3 +213,29 @@ button:hover {
 .dark-gray-selected{
 	background-color: #444246;
 }
+
+/* Style the buttons */
+.btn-opt {
+	width: 80%;
+	font-size: 12px;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 1px solid #f9b234;
+	background-color: white;
+	 padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-height: 40px;
+    color: black;
+    font-family: "Museo Sans 100";
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn-opt:hover {
+  background-color: #f9b234;
+  color: white;
+}
