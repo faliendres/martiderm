@@ -61,6 +61,7 @@
   					<button class="button p_3" type="button">SIGUIENTE</button>	
   				</div>
 			</div>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -103,11 +104,12 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
-				<a class="button" >Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</a>
-				<a class="button" >Tiene <b>buenas promociones y precios competitivos</b>.</a>
-				<a class="button" >Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y<br>bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</a>
-				<a class="button" >Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</a>
+				<a class="tab-cover" >Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</a>
+				<a class="tab-cover" >Tiene <b>buenas promociones y precios competitivos</b>.</a>
+				<a class="tab-cover" >Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y<br>bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</a>
+				<a class="tab-cover" >Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</a>
 			</div>
+<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -123,6 +125,7 @@
 				<input type="radio" name="question_5" value="1"> Verdadero&nbsp;&nbsp;
   				<input type="radio" name="question_5" value="0"> Falso&nbsp;&nbsp;
 			</div>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -135,6 +138,7 @@
 		</div>
 		<div class="row answer-container">
 			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -147,6 +151,7 @@
 		</div>
 		<div class="row answer-container">
 			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -158,6 +163,34 @@
 			</div>
 		</div>
 		<div class="row answer-container">
+			<input type="hidden" id="product1" name="product1" value="">
+			<input type="hidden" id="product2" name="product2" value="">
+			<input type="hidden" id="product3" name="product3" value="">
+			<input type="hidden" id="product4" name="product4" value="">
+			<div class="col-md-12">
+				<div class="col-md-3 circle-item light-green" id="divproducto1">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
+				</div>
+				<div class="col-md-6">
+					<button class="tab-relate">Hidratación intensiva</button> 
+					<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
+				</div>
+				<div class="col-md-3 circle-item light-brown" id="divproducto2">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-3 circle-item dark-green" id="divproducto3">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
+				</div>
+				<div class="col-md-6">
+					<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
+					<button type="button" class="tab-relate" >Despigmentante</button>
+				</div>
+				<div class="col-md-3 circle-item dark-gray" id="divproducto4" >
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

@@ -26,7 +26,7 @@ body {
 }
 
 .site-content{
-	width: 400px;
+	width: 500px;
 	margin: 0 auto;
 	background-color: white;
 	background-image: url('../img/quizz-app-2.jpg');
@@ -138,4 +138,78 @@ button:hover {
 	font-family: 'Museo Sans 100', Arial, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.tab-cover{
+	width: 80%;
+	font-size: 9px;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #f9b234;
+	background-color: white;
+	 padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-height: 20px;
+}
+
+.tab-relate{
+	width: 90%;
+	font-size: 9pt;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #f9b234;
+	background-color: #eee;
+	 padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    min-height: 20px;
+    color: black;
+}
+
+.circle-item{
+	border-radius: 100% 100% 100% 100%;
+	-moz-border-radius: 100% 100% 100% 100%;
+	-webkit-border-radius: 100% 100% 100% 100%;
+	padding: 25px;
+}
+
+.light-green{
+	background-color: #a8cece;
+}
+
+.dark-green{
+	background-color: #6a9a90;
+}
+
+.light-brown{
+	background-color: #d0b1a1;
+}
+
+.dark-gray{
+	background-color: #bbbbbb;
+}
+
+.light-green-selected{
+	background-color: #00a8a8;
+}
+
+.dark-green-selected{
+	background-color: #00725b;
+}
+
+.light-brown-selected{
+	background-color: #b67e62;
+}
+
+.dark-gray-selected{
+	background-color: #444246;
 }
