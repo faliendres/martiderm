@@ -26,7 +26,7 @@ body {
 }
 
 .site-content{
-	width: 400px;
+	width: 500px;
 	margin: 0 auto;
 	background-color: white;
 	background-image: url('../img/quizz-app-2.jpg');
@@ -158,7 +158,7 @@ button:hover {
 }
 
 .tab-relate{
-	width: 50%;
+	width: 90%;
 	font-size: 9pt;
 	border-radius: 15px 15px 15px 15px;
 	-moz-border-radius: 15px 15px 15px 15px;
@@ -173,4 +173,43 @@ button:hover {
     cursor: pointer;
     min-height: 20px;
     color: black;
+}
+
+.circle-item{
+	border-radius: 100% 100% 100% 100%;
+	-moz-border-radius: 100% 100% 100% 100%;
+	-webkit-border-radius: 100% 100% 100% 100%;
+	padding: 25px;
+}
+
+.light-green{
+	background-color: #a8cece;
+}
+
+.dark-green{
+	background-color: #6a9a90;
+}
+
+.light-brown{
+	background-color: #d0b1a1;
+}
+
+.dark-gray{
+	background-color: #bbbbbb;
+}
+
+.light-green-selected{
+	background-color: #00a8a8;
+}
+
+.dark-green-selected{
+	background-color: #00725b;
+}
+
+.light-brown-selected{
+	background-color: #b67e62;
+}
+
+.dark-gray-selected{
+	background-color: #444246;
 }
