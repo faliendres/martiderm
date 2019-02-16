@@ -94,6 +94,7 @@ jQuery(".circle-item").on("click", function () {
     current[0].className = current[0].className.replace(" active", "");
   }
   this.className += " active";
+  });
   if(!$(this).hasClass("selected")){
     console.log($(this).data("color"));
    $(this).addClass(  $(this).data("color")+"-selected" );
