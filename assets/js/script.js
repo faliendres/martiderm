@@ -85,6 +85,15 @@ jQuery(".p_3").on("click", function () {
     }
 });
 
+
+jQuery(".circle-item").on("click", function () {
+  if(!$(this).hasClass("selected")){
+    console.log($(this).data("color"));
+   $(this).addClass(  $(this).data("color")+"-selected" );
+ }
+   
+});
+
 var header = document.getElementById("myDIV");
 var btns = header.getElementsByClassName("btn-opt");
 for (var i = 0; i < btns.length; i++) {
@@ -96,3 +105,4 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+

@@ -180,6 +180,7 @@ button:hover {
 	-moz-border-radius: 100% 100% 100% 100%;
 	-webkit-border-radius: 100% 100% 100% 100%;
 	padding: 25px;
+	cursor: pointer;
 }
 
 .light-green{
