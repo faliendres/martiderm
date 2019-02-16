@@ -12,37 +12,42 @@
 		</div>
 		<br><br>
 		<div class="row answer-container text-center" >
+
 			<input type="hidden" id="product1" name="product1" value="">
 			<input type="hidden" id="product2" name="product2" value="">
 			<input type="hidden" id="product3" name="product3" value="">
 			<input type="hidden" id="product4" name="product4" value="">
 			<div class="col-md-12">
-				<div class="col-md-3 circle-item light-green" id="divproducto1">
+				<div class="col-md-3 circle-item light-green" data-color="light-green" id="divproducto1">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
 				<div class="col-md-6">
 					<button type="button" class="tab-relate">Hidratación intensiva</button> 
 					<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
 				</div>
-				<div class="col-md-3 circle-item light-brown" id="divproducto2">
+				<div class="col-md-3 circle-item light-brown" data-color="light-brown" id="divproducto2">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
 			<div class="col-md-12">
-				<div class="col-md-3 circle-item dark-green" id="divproducto3">
+				<div class="col-md-3 circle-item dark-green" data-color="dark-green" id="divproducto3">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
 				<div class="col-md-6">
 					<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
 					<button type="button" class="tab-relate" >Despigmentante</button>
 				</div>
-				<div class="col-md-3 circle-item dark-gray" id="divproducto4" >
+				<div class="col-md-3 circle-item dark-gray" data-color="dark-gray" id="divproducto4" >
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
 			
 			
-
+<!--
+			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
+    		<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
+    		<input type="hidden" name="pregunta_1" id="pregunta_1">
+-->
 		</div>
 	</div>
 </div>
@@ -73,19 +78,21 @@
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
   				<label class="radio-inline">
-			    	<input type="radio" name="optradio" value="6">&nbsp;6
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6">&nbsp;6
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="optradio" value="8">&nbsp;8
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="8">&nbsp;8
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="optradio" value="12">&nbsp;12
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="12">&nbsp;12
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="optradio" value="9">&nbsp;9
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9">&nbsp;9
 			    </label>
-  				<br>
-  				<button class="button" type="button" id="nextBtn" onclick="nextPrev(1)">Siguiente</button>
+			    <br>
+  				<div class="col-md-12 text-center">
+  					<button class="button p_3" type="button">SIGUIENTE</button>	
+  				</div>
 			</div>
 			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
@@ -100,7 +107,9 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
+			<div class="col-md-12 text-center">
+				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -113,7 +122,9 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
+			<div class="col-md-12 text-center">
+				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -185,12 +196,33 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<div class="col-md-12 text-center">
-				<a class="button cover" >Hidratación intensiva</a>
-				<a class="button cover" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM
-</a>
-				<a class="button cover" >Efecto antifatiga inmediato</a>
-				<a class="button cover" >Despigmentante</a>
+			<input type="hidden" id="product1" name="product1" value="">
+			<input type="hidden" id="product2" name="product2" value="">
+			<input type="hidden" id="product3" name="product3" value="">
+			<input type="hidden" id="product4" name="product4" value="">
+			<div class="col-md-12">
+				<div class="col-md-3 circle-item light-green" id="divproducto1">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
+				</div>
+				<div class="col-md-6">
+					<button class="tab-relate">Hidratación intensiva</button> 
+					<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
+				</div>
+				<div class="col-md-3 circle-item light-brown" id="divproducto2">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-3 circle-item dark-green" id="divproducto3">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
+				</div>
+				<div class="col-md-6">
+					<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
+					<button type="button" class="tab-relate" >Despigmentante</button>
+				</div>
+				<div class="col-md-3 circle-item dark-gray" id="divproducto4" >
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
+				</div>
 			</div>
 		</div>
 	</div>

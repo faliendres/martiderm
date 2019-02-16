@@ -75,3 +75,20 @@ jQuery(".p_1").on("click", function () {
 jQuery(".p_2").on("click", function () {
     jQuery("#pregunta_2").val(jQuery(this).val());
 });
+
+jQuery(".p_3").on("click", function () {
+    if($("input[name='pregunta_3']:checked").val()=="9"){
+      nextPrev(2);
+    }
+    else{
+      nextPrev(1);
+    }
+});
+
+jQuery(".circle-item").on("click", function () {
+  if(!$(this).hasClass("selected")){
+    console.log($(this).data("color"));
+   $(this).addClass(  $(this).data("color")+"-selected" );
+ }
+   
+});
