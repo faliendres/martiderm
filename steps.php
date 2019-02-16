@@ -45,19 +45,21 @@
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
   				<label class="radio-inline">
-			    	<input type="radio" name="optradio" value="6">&nbsp;6
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6">&nbsp;6
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="optradio" value="8">&nbsp;8
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="8">&nbsp;8
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="optradio" value="12">&nbsp;12
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="12">&nbsp;12
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="optradio" value="9">&nbsp;9
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9">&nbsp;9
 			    </label>
-  				<br>
-  				<button class="button" type="button" id="nextBtn" onclick="nextPrev(1)">Siguiente</button>
+			    <br>
+  				<div class="col-md-12 text-center">
+  					<button class="button p_3" type="button">SIGUIENTE</button>	
+  				</div>
 			</div>
 		</div>
 	</div>
@@ -71,6 +73,9 @@
 			</div>
 		</div>
 		<div class="row answer-container">
+			<div class="col-md-12 text-center">
+				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -83,6 +88,9 @@
 			</div>
 		</div>
 		<div class="row answer-container">
+			<div class="col-md-12 text-center">
+				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
+			</div>
 		</div>
 	</div>
 </div>
