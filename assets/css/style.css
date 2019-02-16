@@ -218,9 +218,9 @@ button:hover {
 .btn-opt {
 	width: 80%;
 	font-size: 12px;
-	border-radius: 15px 15px 15px 15px;
-	-moz-border-radius: 15px 15px 15px 15px;
-	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 1px solid #f9b234;
 	background-color: white;
 	 padding: 10px 30px;
@@ -229,7 +229,7 @@ button:hover {
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    min-height: 40px;
+    min-height: 70px;
     color: black;
     font-family: "Museo Sans 100";
 }
