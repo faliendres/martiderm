@@ -21,7 +21,7 @@
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
 				<div class="col-md-6">
-					<button class="tab-relate">Hidratación intensiva</button> 
+					<button type="button" class="tab-relate">Hidratación intensiva</button> 
 					<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
 				</div>
 				<div class="col-md-3 circle-item light-brown" id="divproducto2">
