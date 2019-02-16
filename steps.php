@@ -12,42 +12,9 @@
 		</div>
 		<br><br>
 		<div class="row answer-container text-center" >
-
-			<input type="hidden" id="product1" name="product1" value="">
-			<input type="hidden" id="product2" name="product2" value="">
-			<input type="hidden" id="product3" name="product3" value="">
-			<input type="hidden" id="product4" name="product4" value="">
-			<div class="col-md-12">
-				<div class="col-md-3 circle-item light-green" data-color="light-green" id="divproducto1">
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
-				</div>
-				<div class="col-md-6">
-					<button type="button" class="tab-relate">Hidratación intensiva</button> 
-					<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
-				</div>
-				<div class="col-md-3 circle-item light-brown" data-color="light-brown" id="divproducto2">
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
-				</div>
-			</div>
-			<div class="col-md-12">
-				<div class="col-md-3 circle-item dark-green" data-color="dark-green" id="divproducto3">
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
-				</div>
-				<div class="col-md-6">
-					<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
-					<button type="button" class="tab-relate" >Despigmentante</button>
-				</div>
-				<div class="col-md-3 circle-item dark-gray" data-color="dark-gray" id="divproducto4" >
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
-				</div>
-			</div>
-			
-			
-<!--
 			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
     		<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
     		<input type="hidden" name="pregunta_1" id="pregunta_1">
--->
 		</div>
 	</div>
 </div>
@@ -78,16 +45,16 @@
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
   				<label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6">&nbsp;6
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6">6
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="8">&nbsp;8
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="8">8
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="12">&nbsp;12
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="12">12
 			    </label>
 			    <label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9">&nbsp;9
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9">9
 			    </label>
 			    <br>
   				<div class="col-md-12 text-center">
@@ -137,10 +104,11 @@
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
 				<div id="myDIV">
-					<button type="button" class="btn-opt">Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</a>
-					<button type="button" class="btn-opt">Tiene <b>buenas promociones y precios competitivos</b>.</a>
-					<button type="button" class="btn-opt">Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</a>
-					<button type="button" class="btn-opt">Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</a>
+					<button type="button" class="btn-opt p_4" value="1">Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</button>
+					<button type="button" class="btn-opt p_4" value="2">Tiene <b>buenas promociones y precios competitivos</b>.</button>
+					<button type="button" class="btn-opt p_4" value="3">Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</button>
+					<button type="button" class="btn-opt p_4" value="4">Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</button>
+					<input type="hidden" name="pregunta_4" id="pregunta_4">
 				</div>
 			</div>
 		</div>
@@ -155,10 +123,16 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
-				<input type="radio" name="question_5" value="1"> Verdadero&nbsp;&nbsp;
-  				<input type="radio" name="question_5" value="0"> Falso&nbsp;&nbsp;
+				<label class="radio-inline">
+			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="1">Verdadero
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="0">Falso
+			    </label>
 			</div>
-			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
+			<div class="col-md-12 text-center">
+				<button type="button" class="button p_5">SIGUIENTE</button>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -171,7 +145,9 @@
 		</div>
 		<div class="row answer-container">
 			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
-			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
+			<div class="col-md-12 text-center">
+				<button type="button" class="button p_5" onclick="nextPrev(2)">SIGUIENTE</button>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -179,12 +155,14 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1"><b>Oooh...</b><br>¡RESPUESTA CORRECTA!</span>
+				<span class="title1"><b>Oooh...</b><br>¡RESPUESTA INCORRECTA!</span>
 			</div>
 		</div>
 		<div class="row answer-container">
 			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
-			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
+			<div class="col-md-12 text-center">
+				<button type="button" class="button p_5" onclick="nextPrev(1)">SIGUIENTE</button>	
+			</div>
 		</div>
 	</div>
 </div>
@@ -196,7 +174,7 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<input type="hidden" id="product1" name="product1" value="">
+			<!--input type="hidden" id="product1" name="product1" value="">
 			<input type="hidden" id="product2" name="product2" value="">
 			<input type="hidden" id="product3" name="product3" value="">
 			<input type="hidden" id="product4" name="product4" value="">
@@ -223,6 +201,10 @@
 				<div class="col-md-3 circle-item dark-gray" id="divproducto4" >
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
+			</div-->
+			<br>
+			<div class="col-md-12 text-center">
+				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
@@ -235,10 +217,21 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<input type="radio" name="pregunta_7" value="rrss"> RRSS&nbsp;&nbsp;&nbsp;&nbsp;
-  				<input type="radio" name="pregunta_7" value="whatsapp"> WHATSAPP&nbsp;&nbsp;&nbsp;&nbsp;
-  				<input type="radio" name="pregunta_7" value="medios"> MEDIOS LOCALES&nbsp;&nbsp;&nbsp;&nbsp;
-  				<input type="radio" name="pregunta_7" value="boca"> BOCA OREJA&nbsp;&nbsp;&nbsp;&nbsp;
+  			<label class="radio-inline">
+		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="rrss">RRSS
+		    </label>
+		    <label class="radio-inline">
+		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="whatsapp">WHATSAPP
+		    </label>
+		    <label class="radio-inline">
+		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="medios">MEDIOS LOCALES
+		    </label>
+		    <label class="radio-inline">
+		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="boca">BOCA OREJA
+		    </label>
+		</div>
+		<div class="col-md-12 text-center">
+			<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 		</div>
 	</div>
 </div>
@@ -251,8 +244,9 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
-				<a class="button" onclick="nextPrev(1)">SI</a>
-				<a class="button" onclick="nextPrev(1)">NO</a>
+				<button type="button" class="button p_8" onclick="nextPrev(1)" value="1">SI</button>
+    			<button type="button" class="button p_8" onclick="nextPrev(1)" value="0">NO</button>
+    			<input type="hidden" name="pregunta_8" id="pregunta_8">
 			</div>
 		</div>
 	</div>
@@ -275,7 +269,7 @@
     </div>
   </div>
   <!-- Circles which indicates the steps of the form: -->
-  <div style="text-align:center;margin-top:40px;">
+  <div style="text-align:center;margin-top:40px; display: none;">
     <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
