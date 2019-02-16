@@ -94,7 +94,6 @@
   					<button class="button p_3" type="button">SIGUIENTE</button>	
   				</div>
 			</div>
-			<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
@@ -137,12 +136,13 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
-				<a class="tab-cover" >Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</a>
-				<a class="tab-cover" >Tiene <b>buenas promociones y precios competitivos</b>.</a>
-				<a class="tab-cover" >Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y<br>bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</a>
-				<a class="tab-cover" >Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</a>
+				<div id="myDIV">
+					<button type="button" class="btn-opt">Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</a>
+					<button type="button" class="btn-opt">Tiene <b>buenas promociones y precios competitivos</b>.</a>
+					<button type="button" class="btn-opt">Promueve un <b>estilo de vida Smart Aging</b>: cuida tu alimentación y bienestar personal, haz ejercicio, mima tu piel, y respeta el planeta.</a>
+					<button type="button" class="btn-opt">Aboga por la <b>innovación</b> en el <b>cuidado de la piel</b><br>y el <b>bienestar personal</b>.</a>
+				</div>
 			</div>
-<button type="button" class="button" onclick="nextPrev(1)">SI</button>
 		</div>
 	</div>
 </div>
