@@ -106,3 +106,20 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+jQuery(".p_4").on("click", function () {
+    jQuery("#pregunta_4").val(jQuery(this).val());
+    nextPrev(1);
+});
+
+jQuery(".p_5").on("click", function () {
+    if($("input[name='pregunta_5']:checked").val()=="1"){
+      nextPrev(1);
+    }
+    else{
+      nextPrev(2);
+    }
+});
+
+jQuery(".p_8").on("click", function () {
+    jQuery("#pregunta_8").val(jQuery(this).val());
+});
