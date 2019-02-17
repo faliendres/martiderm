@@ -10,11 +10,11 @@
 				<span class="title1">¿TRABAJAS EN UNA<br><b>FARMACIA</b>?</span>
 			</div>
 		</div>
-		<br><br>
+		<div class="spc-5"></div>
 		<div class="row answer-container text-center" >
-			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">NO</button>
-
 			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
+
+			<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
     		<input type="hidden" name="pregunta_1" id="pregunta_1"-->
 		</div>
 	</div>
@@ -234,6 +234,10 @@
 				<div class="col-md-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
+			</div>
+			<div class="spc-2"></div>
+			<div class="col-md-12 text-center">
+				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
