@@ -141,6 +141,7 @@ jQuery(".p_5").on("click", function () {
 
 jQuery(".p_7").on("click", function (e) {
     e.preventDefault();
+    jQuery("#pregunta_7").val($(e.target).val());
     nextPrev(1);
 });
 

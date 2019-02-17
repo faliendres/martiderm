@@ -253,22 +253,23 @@
 			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
 				<div class="col-md-3">
-					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt1.png" value="1">
+					<input type="image" class="p_7" src="assets/img/opt1.png" value="1">
 					<span class="text500">RRSS</span>
 				</div>
 				<div class="col-md-3">
-					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt2.png" value="2">
+					<input type="image" class="p_7" src="assets/img/opt2.png" value="2">
 					<span class="text500">WHATSAPP</span>
 				</div>
 				<div class="col-md-3">
-					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt3.png" value="3">
+					<input type="image" class="p_7" src="assets/img/opt3.png" value="3">
 					<span class="text500">MEDIOS LOCALES</span>
 				</div>
 				<div class="col-md-3">
-					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt4.png" value="4">
+					<input type="image" class="p_7" src="assets/img/opt4.png" value="4">
 					<span class="text500">BOCA OREJA</span>
 				</div>
 			</div>
+			<input type="hidden" name="pregunta_7" id="pregunta_7">
 		</div>
 		<div class="col-md-12 text-center">
 		</div>
