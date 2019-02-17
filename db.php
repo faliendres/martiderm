@@ -13,7 +13,7 @@ if(isset($_POST)){
 	    die("Connection failed: " . $conn->connect_error);
 	} 
 
-	$sql = "INSERT INTO `quiz`.`quiz`
+	$sql = "INSERT INTO `u371348585_quiz`.`quiz`
 						(`trabaja_farmacia`,
 						`conocias_martiderm`,
 						`tipos_ampollas`,
