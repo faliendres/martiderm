@@ -195,7 +195,7 @@
 			</div>
 			<div class="col-md-12 text-center">
 				<div class="spc-5"></div>
-				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
+				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
