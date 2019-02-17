@@ -139,4 +139,5 @@ jQuery(".p_5").on("click", function () {
 
 jQuery(".p_8").on("click", function () {
     jQuery("#pregunta_8").val(jQuery(this).val());
+    $.post('db.php', $('#regForm').serialize());
 });

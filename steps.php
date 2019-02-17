@@ -47,17 +47,17 @@
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
 				<div class="spc-2"></div>
-  				<label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6">6
+  				<label class="container-radio radio-inline"><span class="text100">6</span>
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6"><span class="checkmark"></span>
 			    </label>
-			    <label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="8">8
+			    <label class="container-radio radio-inline"><span class="text100">8</span>
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="8"><span class="checkmark"></span>
 			    </label>
-			    <label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="12">12
+			    <label class="container-radio radio-inline"><span class="text100">12</span>
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="12"><span class="checkmark"></span>
 			    </label>
-			    <label class="radio-inline">
-			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9">9
+			    <label class="container-radio radio-inline"><span class="text100">9</span>
+			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9"><span class="checkmark"></span>
 			    </label>
 			    <div class="spc-2"></div>
   				<div class="col-md-12 text-center">
@@ -138,11 +138,11 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<label class="radio-inline">
-			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="1">Verdadero
+				<label class="container-radio radio-inline"><span class="text100">Verdadero</span>
+			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="1"><span class="checkmark"></span>
 			    </label>
-			    <label class="radio-inline">
-			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="0">Falso
+			    <label class="container-radio radio-inline"><span class="text100">Falso</span>
+			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="0"><span class="checkmark"></span>
 			    </label>
 			</div>
 			<div class="col-md-12 text-center">
@@ -161,7 +161,7 @@
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="fondo">
+			<div class="">
 				<div class="col-md-7 col-md-offset-1">
 					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
 				</div>
@@ -169,8 +169,8 @@
 					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
 				</div>
 			</div>
-			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
+				<div class="spc-5"></div>
 				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
 		</div>
@@ -185,7 +185,7 @@
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="fondo">
+			<div class="">
 				<div class="col-md-7 col-md-offset-1">
 					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
 				</div>
@@ -193,9 +193,9 @@
 					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
 				</div>
 			</div>
-			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
+				<div class="spc-5"></div>
+				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
@@ -252,10 +252,22 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt1.png" value="1">
-				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt2.png" value="2">
-				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt3.png" value="3">
-				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt4.png" value="4">
+				<div class="col-md-3">
+					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt1.png" value="1">
+					<span class="text500">RRSS</span>
+				</div>
+				<div class="col-md-3">
+					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt2.png" value="2">
+					<span class="text500">WHATSAPP</span>
+				</div>
+				<div class="col-md-3">
+					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt3.png" value="3">
+					<span class="text500">MEDIOS LOCALES</span>
+				</div>
+				<div class="col-md-3">
+					<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt4.png" value="4">
+					<span class="text500">BOCA OREJA</span>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-12 text-center">
@@ -297,6 +309,8 @@
   </div>
   <!-- Circles which indicates the steps of the form: -->
   <div style="text-align:center;margin-top:40px; display: none;">
+    <span class="step"></span>
+    <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
