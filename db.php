@@ -2,7 +2,7 @@
 
 if(isset($_POST)){
 	$servername = "localhost";
-	$username = "u371348585_quiz";
+	$username = "u371348585_root";
 	$password = "Gi4FZzXeayFh";
 	$dbname = "u371348585_quiz";
 
