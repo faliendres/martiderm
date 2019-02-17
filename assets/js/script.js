@@ -139,6 +139,11 @@ jQuery(".p_5").on("click", function () {
     }
 });
 
+jQuery(".p_7").on("click", function (e) {
+    e.preventDefault();
+    nextPrev(1);
+});
+
 jQuery(".p_8").on("click", function () {
     jQuery("#pregunta_8").val(jQuery(this).val());
     $.post('db.php', $('#regForm').serialize());
