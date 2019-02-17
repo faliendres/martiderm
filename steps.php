@@ -195,7 +195,7 @@
 			</div>
 			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
+				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
@@ -208,8 +208,8 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<input type="hidden" id="selected" name="selected" value="">
-    		<input type="hidden" id="light-green" name="light-green" value="">
+			<!--input type="hidden" id="selected" name="selected" value="">
+    		<input type="hidden" id="light-green" name="light-green" value=""-->
 			
 			<div class="col-md-12 relation-items">
 				<div class="col-md-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
@@ -235,8 +235,8 @@
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
-			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
+				<div class="spc-2"></div>
 				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
 		</div>
