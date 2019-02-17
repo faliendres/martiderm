@@ -240,3 +240,25 @@ button:hover {
   background-color: #f9b234;
   color: white;
 }
+
+.spc-5 {
+	margin: 5em;
+}
+
+.spc-2 {
+	margin: 2em;
+}
+
+.parrafo {
+	font-family: 'Museo Sans 500';
+	
+}
+
+.fondo {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #f9b234;
+	background-color: #f9b234;
+	padding: 10px 30px;
+}
