@@ -339,3 +339,13 @@ button:hover {
 	border-radius: 50%;
 	background: #fcca79;
 }
+
+.ampolla {
+	max-width: 60%
+}
+
+@media (max-width:960px){
+	.ampolla {
+		max-width: 60%
+	}	
+}

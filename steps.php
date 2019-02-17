@@ -162,14 +162,14 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="">
-				<div class="col-md-7 col-md-offset-1">
+				<div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
 					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-sm-2">
 					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
 				</div>
 			</div>
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 col-sm-12 text-center">
 				<div class="spc-5"></div>
 				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
@@ -186,14 +186,14 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="">
-				<div class="col-md-7 col-md-offset-1">
+				<div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
 					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-sm-2">
 					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
 				</div>
 			</div>
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 col-sm-12 text-center">
 				<div class="spc-5"></div>
 				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
