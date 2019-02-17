@@ -2,9 +2,9 @@
 
 if(isset($_POST)){
 	$servername = "localhost";
-	$username = "root";
+	$username = "u371348585_quiz";
 	$password = "Gi4FZzXeayFh";
-	$dbname = "quiz";
+	$dbname = "u371348585_quiz";
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
