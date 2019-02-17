@@ -87,26 +87,26 @@ jQuery(".p_3").on("click", function () {
 
 
 jQuery(".circle-item").on("click", function () {
- 
-  if(!$(this).hasClass("selected") && $('#selected').val() == ""){
+  var btns = document.getElementsByClassName("selected");
+  Object.values(btns).forEach(function(element) {
+    $(element).removeClass("selected");
+  });
+  if(!$(this).hasClass("selected") ){
     $(this).addClass(  $(this).data("color")+"-selected selected" );
     $("#selected").val($(this).data("color"));
   }
-  /*var btns = document.getElementsByClassName("selected");
- Object.values(btns).forEach(function(element) {
-    $(element).removeClass("selected");
-  });*/
+ 
 });
 
 jQuery(".tab-relate").on("click", function () {
-
+ var btns = document.getElementsByClassName("tab-relate");
+  Object.values(btns).forEach(function(element) {
+    $(element).removeClass($('#selected').val()+"-selected");
+  });
+  console.log($('#selected').val());
   if($('#selected').val() != ""){
-    var btns = document.getElementsByClassName(".tab-relate");
-    Object.values(btns).forEach(function(element) {
-      $(element).removeClass($('#selected').val());
-    });
     $(this).addClass($('#selected').val()+"-selected selected");
-    $('#selected').val("");
+    
   }
 });
 
@@ -139,5 +139,4 @@ jQuery(".p_5").on("click", function () {
 
 jQuery(".p_8").on("click", function () {
     jQuery("#pregunta_8").val(jQuery(this).val());
-    $.post('db.php', $('#regForm').serialize());
 });
