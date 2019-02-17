@@ -12,10 +12,10 @@
 		</div>
 		<br><br>
 		<div class="row answer-container text-center" >
-			<div class="spc-5"></div>
+			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">NO</button>
+
 			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
-    		<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
-    		<input type="hidden" name="pregunta_1" id="pregunta_1">
+    		<input type="hidden" name="pregunta_1" id="pregunta_1"-->
 		</div>
 	</div>
 </div>
@@ -208,37 +208,32 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<!--input type="hidden" id="product1" name="product1" value="">
-			<input type="hidden" id="product2" name="product2" value="">
-			<input type="hidden" id="product3" name="product3" value="">
-			<input type="hidden" id="product4" name="product4" value=""-->
-			<div class="col-md-12">
-				<div class="col-md-3 circle-item light-green" id="divproducto1">
+			<input type="hidden" id="selected" name="selected" value="">
+    		<input type="hidden" id="light-green" name="light-green" value="">
+			
+			<div class="col-md-12 relation-items">
+				<div class="col-md-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
 				<div class="col-md-6">
-					<button class="tab-relate">Hidratación intensiva</button> 
+					<button type="button" class="tab-relate">Hidratación intensiva</button> 
 					<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
 				</div>
-				<div class="col-md-3 circle-item light-brown" id="divproducto2">
+				<div class="col-md-3 circle-item light-brown" id="divproducto2" data-color="light-brown">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
 			<div class="col-md-12">
-				<div class="col-md-3 circle-item dark-green" id="divproducto3">
+				<div class="col-md-3 circle-item dark-green" id="divproducto3" data-color="dark-green">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
 				<div class="col-md-6">
 					<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
 					<button type="button" class="tab-relate" >Despigmentante</button>
 				</div>
-				<div class="col-md-3 circle-item dark-gray" id="divproducto4" >
+				<div class="col-md-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
-			</div>
-			<br>
-			<div class="col-md-12 text-center">
-				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>

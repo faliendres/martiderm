@@ -87,21 +87,29 @@ jQuery(".p_3").on("click", function () {
 
 
 jQuery(".circle-item").on("click", function () {
-  var btns = header.getElementsByClassName("btn-opt");
-   btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  if (current.length > 0) {
-    current[0].className = current[0].className.replace(" active", "");
-  }
-  this.className += " active";
+  var btns = document.getElementsByClassName("selected");
+  Object.values(btns).forEach(function(element) {
+    $(element).removeClass("selected");
   });
-  if(!$(this).hasClass("selected")){
-    console.log($(this).data("color"));
-   $(this).addClass(  $(this).data("color")+"-selected" );
- }
-
-   
+  if(!$(this).hasClass("selected") ){
+    $(this).addClass(  $(this).data("color")+"-selected selected" );
+    $("#selected").val($(this).data("color"));
+  }
+ 
 });
+
+jQuery(".tab-relate").on("click", function () {
+ var btns = document.getElementsByClassName("tab-relate");
+  Object.values(btns).forEach(function(element) {
+    $(element).removeClass($('#selected').val()+"-selected");
+  });
+  console.log($('#selected').val());
+  if($('#selected').val() != ""){
+    $(this).addClass($('#selected').val()+"-selected selected");
+    
+  }
+});
+
 
 var header = document.getElementById("myDIV");
 var btns = header.getElementsByClassName("btn-opt");
@@ -131,5 +139,4 @@ jQuery(".p_5").on("click", function () {
 
 jQuery(".p_8").on("click", function () {
     jQuery("#pregunta_8").val(jQuery(this).val());
-    $.post('db.php', $('#regForm').serialize());
 });
