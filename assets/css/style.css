@@ -262,3 +262,8 @@ button:hover {
 	background-color: #f9b234;
 	padding: 10px 30px;
 }
+
+.p_7 {
+	border: 0px;
+	max-width: 20%;
+}

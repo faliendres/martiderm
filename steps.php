@@ -162,7 +162,7 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="fondo">
-				<div class="col-md-6 col-md-offset-2">
+				<div class="col-md-7 col-md-offset-1">
 					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
 				</div>
 				<div class="col-md-2">
@@ -186,7 +186,7 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="fondo">
-				<div class="col-md-6 col-md-offset-2">
+				<div class="col-md-7 col-md-offset-1">
 					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
 				</div>
 				<div class="col-md-2">
@@ -251,21 +251,15 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-  			<label class="radio-inline">
-		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="rrss">RRSS
-		    </label>
-		    <label class="radio-inline">
-		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="whatsapp">WHATSAPP
-		    </label>
-		    <label class="radio-inline">
-		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="medios">MEDIOS LOCALES
-		    </label>
-		    <label class="radio-inline">
-		    	<input type="radio" name="pregunta_7" class="pregunta_7" value="boca">BOCA OREJA
-		    </label>
+			<div class="spc-2"></div>
+			<div class="col-md-12 text-center">
+				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt1.png" value="1">
+				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt2.png" value="2">
+				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt3.png" value="3">
+				<input type="image" class="p_7" name="pregunta_7" src="assets/img/opt4.png" value="4">
+			</div>
 		</div>
 		<div class="col-md-12 text-center">
-			<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 		</div>
 	</div>
 </div>
