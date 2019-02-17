@@ -3,8 +3,8 @@
 if(isset($_POST)){
 	$servername = "localhost";
 	$username = "root";
-	$password = "";
-	$dbname = "db_quiz";
+	$password = "Gi4FZzXeayFh";
+	$dbname = "quiz";
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
