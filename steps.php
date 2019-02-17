@@ -203,7 +203,7 @@
 <div class="tab">
 	<div class="wizard-step">
 		<div class="row">
-			<div class="col-md-12 text-center questions">
+			<div class="col-md-12 col-sm-12 text-center questions">
 				<span class="title1">RELACIONA EL PRODUCTO CON SU DESCRIPCIÓN</span>
 			</div>
 		</div>
@@ -211,31 +211,31 @@
 			<input type="hidden" id="selected" name="selected" value="">
     		<input type="hidden" id="light-green" name="pregunta_6" value="0">
 			
-			<div class="col-md-12 relation-items">
+			<div class="col-md-12 col-sm-12 relation-items">
 				<div class="col-md-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<button type="button" class="tab-relate" id="opcion1">Hidratación intensiva</button> 
 					<button type="button" class="tab-relate" id="opcion2">Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
 				</div>
-				<div class="col-md-3 circle-item light-brown" id="divproducto2" data-color="light-brown" data-correct="4">
+				<div class="col-md-3 col-sm-3 circle-item light-brown" id="divproducto2" data-color="light-brown" data-correct="4">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
-			<div class="col-md-12">
+			<div class="col-md-12 col-sm-12">
 				<div class="col-md-3 circle-item dark-green" id="divproducto3" data-color="dark-green" data-correct="2">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<button type="button" class="tab-relate" id="opcion3">Efecto antifatiga inmediato</button>
 					<button type="button" class="tab-relate" id="opcion4">Despigmentante</button>
 				</div>
-				<div class="col-md-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray" data-correct="1">
+				<div class="col-md-3 col-sm-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray" data-correct="1">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 col-sm-12 text-center">
 				<div class="spc-2"></div>
 				<button type="button" class="button p_6" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
@@ -251,20 +251,20 @@
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="col-md-12 text-center">
-				<div class="col-md-3">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/opt1.png" value="1">
 					<span class="text500">RRSS</span>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/opt2.png" value="2">
 					<span class="text500">WHATSAPP</span>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/opt3.png" value="3">
 					<span class="text500">MEDIOS LOCALES</span>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/opt4.png" value="4">
 					<span class="text500">BOCA OREJA</span>
 				</div>
