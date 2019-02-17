@@ -12,6 +12,7 @@
 		</div>
 		<br><br>
 		<div class="row answer-container text-center" >
+			<div class="spc-5"></div>
 			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
     		<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
     		<input type="hidden" name="pregunta_1" id="pregunta_1">
@@ -28,6 +29,7 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
+				<div class="spc-5"></div>
 				<button type="button" class="button p_2" onclick="nextPrev(1)" value="1">SI</button>
 				<button type="button" class="button p_2" onclick="nextPrev(1)" value="0">NO</button>
 				<input type="hidden" name="pregunta_2" id="pregunta_2">
@@ -44,6 +46,7 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
+				<div class="spc-2"></div>
   				<label class="radio-inline">
 			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6">6
 			    </label>
@@ -56,7 +59,7 @@
 			    <label class="radio-inline">
 			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9">9
 			    </label>
-			    <br>
+			    <div class="spc-2"></div>
   				<div class="col-md-12 text-center">
   					<button class="button p_3" type="button">SIGUIENTE</button>	
   				</div>
@@ -70,9 +73,14 @@
 			<div class="col-md-12 text-center questions">
 				<span class="title1"><b>Oooh...</b><br>¡RESPUESTA INCORRECTA!</span>
 				<span class="title1">¡TENEMOS 9 TIPOS DE AMPOLLAS!</span>
+				<div class="spc-2"></div>
+				<div class="col-md-12 text-center">
+					<img src="assets/img/quizz-app-7.png" alt="Productos" style="max-width: 100%;">
+				</div>
 			</div>
 		</div>
 		<div class="row answer-container">
+			<div class="spc-5"></div>
 			<div class="col-md-12 text-center">
 				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
@@ -85,9 +93,14 @@
 			<div class="col-md-12 text-center questions">
 				<span class="title1"><b>¡FELICIDADES!</b><br>¡RESPUESTA CORRECTA!</span>
 				<span class="title1">¡TENEMOS 9 TIPOS DE AMPOLLAS!</span>
+				<div class="spc-2"></div>
+				<div class="col-md-12 text-center">
+					<img src="assets/img/quizz-app-7.png" alt="Productos" style="max-width: 100%;">
+				</div>
 			</div>
 		</div>
 		<div class="row answer-container">
+			<div class="spc-5"></div>
 			<div class="col-md-12 text-center">
 				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
@@ -103,6 +116,7 @@
 		</div>
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
+				<div class="spc-2"></div>
 				<div id="myDIV">
 					<button type="button" class="btn-opt p_4" value="1">Es un laboratorio que apuesta por la <br><b>calidad y efectividad</b> de sus productos.</button>
 					<button type="button" class="btn-opt p_4" value="2">Tiene <b>buenas promociones y precios competitivos</b>.</button>
@@ -122,6 +136,7 @@
 			</div>
 		</div>
 		<div class="row answer-container">
+			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
 				<label class="radio-inline">
 			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="1">Verdadero
@@ -131,6 +146,7 @@
 			    </label>
 			</div>
 			<div class="col-md-12 text-center">
+				<div class="spc-2"></div>
 				<button type="button" class="button p_5">SIGUIENTE</button>	
 			</div>
 		</div>
@@ -144,9 +160,18 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+			<div class="spc-2"></div>
+			<div class="fondo">
+				<div class="col-md-6 col-md-offset-2">
+					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+				</div>
+				<div class="col-md-2">
+					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
+				</div>
+			</div>
+			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<button type="button" class="button p_5" onclick="nextPrev(2)">SIGUIENTE</button>	
+				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
@@ -159,9 +184,18 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<p>EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+			<div class="spc-2"></div>
+			<div class="fondo">
+				<div class="col-md-6 col-md-offset-2">
+					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+				</div>
+				<div class="col-md-2">
+					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
+				</div>
+			</div>
+			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<button type="button" class="button p_5" onclick="nextPrev(1)">SIGUIENTE</button>	
+				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
@@ -177,7 +211,7 @@
 			<!--input type="hidden" id="product1" name="product1" value="">
 			<input type="hidden" id="product2" name="product2" value="">
 			<input type="hidden" id="product3" name="product3" value="">
-			<input type="hidden" id="product4" name="product4" value="">
+			<input type="hidden" id="product4" name="product4" value=""-->
 			<div class="col-md-12">
 				<div class="col-md-3 circle-item light-green" id="divproducto1">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
@@ -201,7 +235,7 @@
 				<div class="col-md-3 circle-item dark-gray" id="divproducto4" >
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
-			</div-->
+			</div>
 			<br>
 			<div class="col-md-12 text-center">
 				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
@@ -270,6 +304,8 @@
   </div>
   <!-- Circles which indicates the steps of the form: -->
   <div style="text-align:center;margin-top:40px; display: none;">
+    <span class="step"></span>
+    <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
