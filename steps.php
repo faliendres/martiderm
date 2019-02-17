@@ -12,9 +12,38 @@
 		</div>
 		<br><br>
 		<div class="row answer-container text-center" >
-			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
+			<!--button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
     		<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
-    		<input type="hidden" name="pregunta_1" id="pregunta_1">
+    		<input type="hidden" name="pregunta_1" id="pregunta_1"-->
+    		<input type="hidden" id="selected" name="selected" value="">
+    		<input type="hidden" id="light-green" name="light-green" value="">
+			<input type="hidden" id="light-brown" name="light-brown" value="">
+			<input type="hidden" id="dark-green" name="dark-green" value="">
+			<input type="hidden" id="dark-gray" name="dark-gray" value="">
+			<div class="col-md-12 relation-items">
+				<div class="col-md-3 circle-item light-green" id="divproducto1" data-color="light-green">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
+				</div>
+				<div class="col-md-6">
+					<button type="button" class="tab-relate">Hidratación intensiva</button> 
+					<button type="button" class="tab-relate" >Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
+				</div>
+				<div class="col-md-3 circle-item light-brown" id="divproducto2" data-color="light-brown">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-3 circle-item dark-green" id="divproducto3" data-color="dark-green">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
+				</div>
+				<div class="col-md-6">
+					<button type="button" class="tab-relate" >Efecto antifatiga inmediato</button>
+					<button type="button" class="tab-relate" >Despigmentante</button>
+				</div>
+				<div class="col-md-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray">
+					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
