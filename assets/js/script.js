@@ -94,6 +94,7 @@ jQuery(".circle-item").on("click", function () {
   if(!$(this).hasClass("selected") ){
     $(this).addClass(  $(this).data("color")+"-selected selected" );
     $("#selected").val($(this).data("color"));
+    $('#selected').attr('data-correct', $(this).data("correct"));
   }
  
 });
@@ -103,10 +104,11 @@ jQuery(".tab-relate").on("click", function () {
   Object.values(btns).forEach(function(element) {
     $(element).removeClass($('#selected').val()+"-selected");
   });
-  console.log($('#selected').val());
+  
   if($('#selected').val() != ""){
     $(this).addClass($('#selected').val()+"-selected selected");
-    
+    $(this).attr('data-correct', $('#selected').data("correct"));
+    $(this).removeData( "data-correct" );
   }
 });
 
@@ -140,4 +142,36 @@ jQuery(".p_5").on("click", function () {
 jQuery(".p_8").on("click", function () {
     jQuery("#pregunta_8").val(jQuery(this).val());
     $.post('db.php', $('#regForm').serialize());
+});
+
+jQuery(".p_6").on("click", function () {
+  var val = 0;
+  var btns = document.getElementsByClassName("tab-relate");
+  Object.values(btns).forEach(function(element) {
+    if( $(element).hasClass("light-green-selected")){
+      val++;
+    }
+     if( $(element).hasClass("light-brown-selected")){
+      val++;
+    }
+     if( $(element).hasClass("dark-green-selected")){
+      val++;
+    }
+    if( $(element).hasClass("dark-gray-selected")){
+      val++;
+    }
+
+    if (val == 4) {
+      console.log($("#divproducto1").data("correct")+"-"+$("#opcion3").data("correct"));
+      console.log($("#divproducto2").data("correct")+"-"+$("#opcion4").data("correct"));
+      console.log($("#divproducto3").data("correct")+"-"+$("#opcion2").data("correct"));
+      console.log($("#divproducto4").data("correct")+"-"+$("#opcion1").data("correct"));
+
+      if( $("#divproducto1").data("correct") == $("#opcion3").data("correct") && $("#divproducto2").data("correct") == $("#opcion4").data("correct") && $("#divproducto3").data("correct") == $("#opcion2").data("correct") && $("#divproducto4").data("correct") == $("#opcion1").data("correct")){
+        $("#pregunta_6").val("1");
+      }
+    }
+
+  });
+  
 });
