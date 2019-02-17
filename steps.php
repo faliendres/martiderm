@@ -212,7 +212,7 @@
     		<input type="hidden" id="light-green" name="pregunta_6" value="0">
 			
 			<div class="col-md-12 col-sm-12 relation-items">
-				<div class="col-md-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
+				<div class="col-md-3 col-sm-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
 				<div class="col-md-6 col-sm-6">
@@ -224,7 +224,7 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12">
-				<div class="col-md-3 circle-item dark-green" id="divproducto3" data-color="dark-green" data-correct="2">
+				<div class="col-md-3 col-sm-3 circle-item dark-green" id="divproducto3" data-color="dark-green" data-correct="2">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
 				<div class="col-md-6 col-sm-6">
