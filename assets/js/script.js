@@ -212,8 +212,20 @@ jQuery(".p_7").on("click", function (e) {
     nextPrev(1);
 });
 
-jQuery(".p_8").on("click", function () {
-    jQuery("#pregunta_8").val(jQuery(this).val());
+jQuery(".p_8").on("click", function (e) {
+    e.preventDefault();
+    jQuery("#pregunta_8").val($(e.target).val());
+    nextPrev(1);
+});
+
+jQuery(".p_9").on("click", function () {
+    jQuery("#pregunta_9").val(jQuery(this).val());
     $.post('db.php', $('#regForm').serialize());
 });
 
+function farmacia(pasos){
+    if(jQuery("#pregunta_1").val()=="1")
+        nextPrev(1);
+    else
+        nextPrev(pasos);
+}
