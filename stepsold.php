@@ -15,7 +15,7 @@
 			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
 
 			<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
-    		<input type="hidden" name="pregunta_1" id="pregunta_1" value="1">
+    		<input type="hidden" name="pregunta_1" id="pregunta_1"-->
 		</div>
 	</div>
 </div>
@@ -32,7 +32,7 @@
 				<div class="spc-5"></div>
 				<button type="button" class="button p_2" onclick="nextPrev(1)" value="1">SI</button>
 				<button type="button" class="button p_2" onclick="nextPrev(1)" value="0">NO</button>
-				<input type="hidden" name="pregunta_2" id="pregunta_2" value="1">
+				<input type="hidden" name="pregunta_2" id="pregunta_2">
 			</div>
 		</div>
 	</div>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 		<div class="row answer-container">
-			<div id="radio_container" class="col-md-12 text-center">
+			<div class="col-md-12 text-center">
 				<div class="spc-2"></div>
   				<label class="container-radio radio-inline"><span class="text100">6</span>
 			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6"><span class="checkmark"></span>
@@ -137,7 +137,7 @@
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div id="radio_container_2" class="col-md-12 text-center">
+			<div class="col-md-12 text-center">
 				<label class="container-radio radio-inline"><span class="text100">Verdadero</span>
 			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="1"><span class="checkmark"></span>
 			    </label>
@@ -156,7 +156,7 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1"><b>Oooh...</b><br>¡RESPUESTA INCORRECTA!</span>
+				<span class="title1"><b>¡FELICIDADES!</b><br>¡RESPUESTA CORRECTA!</span>
 			</div>
 		</div>
 		<div class="row answer-container">
@@ -180,7 +180,7 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1"><b>¡FELICIDADES!</b><br>¡RESPUESTA CORRECTA!</span>
+				<span class="title1"><b>Oooh...</b><br>¡RESPUESTA INCORRECTA!</span>
 			</div>
 		</div>
 		<div class="row answer-container">
@@ -209,7 +209,7 @@
 		</div>
 		<div class="row answer-container">
 			<input type="hidden" id="selected" name="selected" value="">
-    		<input type="hidden" id="pregunta_6" name="pregunta_6" value="0">
+    		<input type="hidden" id="light-green" name="pregunta_6" value="0">
 			
 			<div class="col-md-12 col-sm-12 relation-items">
 				<div class="col-md-3 col-sm-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
@@ -234,9 +234,6 @@
 				<div class="col-md-3 col-sm-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray" data-correct="1">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
-			</div>
-			<div id="error_relacion" style="margin-top:25px;display:none;color:red;"class="col-md-12 col-sm-12 text-center questions">
-				<span class="title1">Vuelve a intentarlo</span>
 			</div>
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="spc-2"></div>
@@ -289,7 +286,7 @@
 			<div class="col-md-12 text-center">
 				<button type="button" class="button p_8" onclick="nextPrev(1)" value="1">SI</button>
     			<button type="button" class="button p_8" onclick="nextPrev(1)" value="0">NO</button>
-    			<input type="hidden" name="pregunta_8" id="pregunta_8" value="1">
+    			<input type="hidden" name="pregunta_8" id="pregunta_8">
 			</div>
 		</div>
 	</div>

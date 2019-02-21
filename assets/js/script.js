@@ -50,6 +50,53 @@ function validateForm() {
       valid = false;
     }
   }
+  if (y.length > 0){
+    if(y[0].name == 'pregunta_3'){
+      if(!$("#radio_container input[name='pregunta_3']").is(':checked'))
+        return false;
+    }
+    if(y[0].name == 'pregunta_5'){
+      if(!$("#radio_container_2 input[name='pregunta_5']").is(':checked'))
+        return false;
+    }
+    if(y[0].name == 'selected'){
+          var val = 0;
+          var val2 = 0;
+          var btns = document.getElementsByClassName("tab-relate");
+          Object.values(btns).forEach(function(element) {
+            if( $(element).hasClass("light-green-selected")){
+              if(element.id == 'opcion3')  
+                val2++;
+              val++;
+            }
+             if( $(element).hasClass("light-brown-selected")){
+              if(element.id == 'opcion4')   
+                val2++;
+              val++;
+            }
+             if( $(element).hasClass("dark-green-selected")){
+              if(element.id == 'opcion2')  
+                val2++;
+              val++;
+            }
+            if( $(element).hasClass("dark-gray-selected")){
+              if(element.id == 'opcion1')   
+                val2++;
+              val++;
+            }
+          });
+
+          if (val2 == 4)
+              $("#pregunta_6").val(1);
+
+          if ($("#pregunta_6").val() == 0){
+            $("#error_relacion").show();
+            valid=false;
+          }
+
+    
+    }
+  }
   // If the valid status is true, mark the step as finished and valid:
   if (valid) {
     document.getElementsByClassName("step")[currentTab].className += " finish";
@@ -100,15 +147,35 @@ jQuery(".circle-item").on("click", function () {
 });
 
 jQuery(".tab-relate").on("click", function () {
+  var good=false;
  var btns = document.getElementsByClassName("tab-relate");
   Object.values(btns).forEach(function(element) {
     $(element).removeClass($('#selected').val()+"-selected");
   });
-  
   if($('#selected').val() != ""){
-    $(this).addClass($('#selected').val()+"-selected selected");
-    $(this).attr('data-correct', $('#selected').data("correct"));
-    $(this).removeData( "data-correct" );
+    if($('#selected').val() == 'dark-gray' && $(this).attr("id")=='opcion1')
+      good=true;
+    if($('#selected').val() == 'dark-green' && $(this).attr("id")=='opcion2')
+      good=true;
+    if($('#selected').val() == 'light-green' && $(this).attr("id")=='opcion3')
+      good=true;
+    if($('#selected').val() == 'light-brown' && $(this).attr("id")=='opcion4')
+      good=true;
+    if(good){
+      $(this).addClass($('#selected').val()+"-selected selected");
+      $(this).attr('data-correct', $('#selected').data("correct"));
+      $(this).removeData( "data-correct" );
+    }
+    else{
+      Swal.fire({
+      position: 'center',
+      type: 'error',
+      title: 'Respuesta incorrecta',
+      showConfirmButton: false,
+      timer: 1000
+    })
+    }
+    
   }
 });
 
@@ -132,10 +199,10 @@ jQuery(".p_4").on("click", function () {
 
 jQuery(".p_5").on("click", function () {
     if($("input[name='pregunta_5']:checked").val()=="1"){
-      nextPrev(1);
+      nextPrev(2);
     }
     else{
-      nextPrev(2);
+      nextPrev(1);
     }
 });
 
@@ -150,34 +217,3 @@ jQuery(".p_8").on("click", function () {
     $.post('db.php', $('#regForm').serialize());
 });
 
-jQuery(".p_6").on("click", function () {
-  var val = 0;
-  var btns = document.getElementsByClassName("tab-relate");
-  Object.values(btns).forEach(function(element) {
-    if( $(element).hasClass("light-green-selected")){
-      val++;
-    }
-     if( $(element).hasClass("light-brown-selected")){
-      val++;
-    }
-     if( $(element).hasClass("dark-green-selected")){
-      val++;
-    }
-    if( $(element).hasClass("dark-gray-selected")){
-      val++;
-    }
-
-    if (val == 4) {
-      console.log($("#divproducto1").data("correct")+"-"+$("#opcion3").data("correct"));
-      console.log($("#divproducto2").data("correct")+"-"+$("#opcion4").data("correct"));
-      console.log($("#divproducto3").data("correct")+"-"+$("#opcion2").data("correct"));
-      console.log($("#divproducto4").data("correct")+"-"+$("#opcion1").data("correct"));
-
-      if( $("#divproducto1").data("correct") == $("#opcion3").data("correct") && $("#divproducto2").data("correct") == $("#opcion4").data("correct") && $("#divproducto3").data("correct") == $("#opcion2").data("correct") && $("#divproducto4").data("correct") == $("#opcion1").data("correct")){
-        $("#pregunta_6").val("1");
-      }
-    }
-
-  });
-  
-});
