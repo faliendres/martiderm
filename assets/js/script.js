@@ -228,7 +228,13 @@ jQuery(".p_9").on("click", function () {
 
 function farmacia(pasos){
     if(jQuery("#pregunta_1").val()=="1")
-        nextPrev(1);
-    else
-        nextPrev(pasos);
+      nextPrev(1);
+    else{
+      nextPrev(pasos);
+      $.post('db.php', $('#regForm').serialize());
+      window.setTimeout( function(){
+         window.location = "index.php";
+      }, 5000 );
+    }
+        
 }
