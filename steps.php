@@ -206,34 +206,34 @@
 			<input type="hidden" id="selected" name="selected" value="">
     		<input type="hidden" id="pregunta_6" name="pregunta_6" value="0">
 			<div class="spc-2"></div>
-			<div class="col-md-12 col-sm-12 relation-items text-center">
-				<div class="col-md-3 col-sm-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
+			<div class="col-md-12 col-sm-12 col-xs-12 relation-items text-center">
+				<div class="col-md-3 col-sm-3 col-xs-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
 					<img style="width: 100%;" src="assets/img/quizz-app-21.png">	
 				</div>
-				<div class="col-md-6 col-sm-6" style="padding-top: 1vh;">
+				<div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 1vh;">
 					<button type="button" class="tab-relate" id="opcion1">Hidratación intensiva</button> 
 					<button type="button" class="tab-relate" id="opcion2">Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
 				</div>
-				<div class="col-md-3 col-sm-3 circle-item light-brown" id="divproducto2" data-color="light-brown" data-correct="4">
+				<div class="col-md-3 col-sm-3 col-xs-3 circle-item light-brown" id="divproducto2" data-color="light-brown" data-correct="4">
 					<img style="width: 100%;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
-			<div class="col-md-12 col-sm-12 relation-items text-center">
-				<div class="col-md-3 col-sm-3 circle-item dark-green" id="divproducto3" data-color="dark-green" data-correct="2">
+			<div class="col-md-12 col-sm-12 col-xs-12 relation-items text-center">
+				<div class="col-md-3 col-sm-3 col-xs-3 circle-item dark-green" id="divproducto3" data-color="dark-green" data-correct="2">
 					<img style="width: 100%;" src="assets/img/quizz-app-22.png">	
 				</div>
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-6 col-sm-6 col-xs-6">
 					<button type="button" class="tab-relate" id="opcion3">Efecto antifatiga inmediato</button>
 					<button type="button" class="tab-relate" id="opcion4">Despigmentante</button>
 				</div>
-				<div class="col-md-3 col-sm-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray" data-correct="1">
+				<div class="col-md-3 col-sm-3 col-xs-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray" data-correct="1">
 					<img style="width: 100%;" src="assets/img/quizz-app-23.png">
 				</div>
 			</div>
 			<div id="error_relacion" style="margin-top:25px;display:none;color:red;"class="col-md-12 col-sm-12 text-center questions">
 				<span class="title1">Vuelve a intentarlo</span>
 			</div>
-			<div class="col-md-12 col-sm-12 text-center">
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
 				<div class="spc-2"></div>
 				<button type="button" class="button p_6" onclick="farmacia(4)">SIGUIENTE</button>	
 			</div>
@@ -249,20 +249,20 @@
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="col-md-12 col-sm-12 text-center image-options">
-				<div class="col-md-3 col-sm-3">
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center image-options">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_7" src="assets/img/16.1.png" value="1">
 					<span class="text900 image-caption">CREMAS DE DÍA</span>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_7" src="assets/img/16.2.png" value="2">
 					<span class="text900 image-caption">CREMAS DE NOCHE</span>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_7" src="assets/img/16.3.png" value="3">
 					<span class="text900 image-caption">SERUMS</span>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_7" src="assets/img/16.4.png" value="4">
 					<span class="text900 image-caption">PRODUCTOS ESPECIFICOS</span> <span class="text300">(ej: capilar, contorno de ojos,
 acné, etc…)</span>
@@ -283,20 +283,20 @@ acné, etc…)</span>
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="col-md-12 col-sm-12 text-center image-options">
-				<div class="col-md-3 col-sm-3">
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center image-options">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_8" src="assets/img/opt1.png" value="1">
 					<span class="text900 image-caption">RRSS</span>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_8" src="assets/img/opt2.png" value="2">
 					<span class="text900 image-caption">WHATSAPP</span>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_8" src="assets/img/opt3.png" value="3">
 					<span class="text900 image-caption">MEDIOS LOCALES</span>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<input type="image" class="p_8" src="assets/img/opt4.png" value="4">
 					<span class="text900 image-caption">BOCA OREJA</span>
 				</div>

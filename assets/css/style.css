@@ -439,8 +439,13 @@ button:hover {
 	max-width: 60%
 }
 
-@media (max-width:960px){
-	.ampolla {
-		max-width: 60%
-	}	
+@media (max-width:767px){
+	.container-radio .checkmark::after {
+    top: -0.1vw;
+    left: -0.1vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background: #fcca79;
+  }
 }
