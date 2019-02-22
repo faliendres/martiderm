@@ -208,26 +208,26 @@
 			<div class="spc-2"></div>
 			<div class="col-md-12 col-sm-12 relation-items text-center">
 				<div class="col-md-3 col-sm-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-21.png">	
+					<img style="width: 100%;" src="assets/img/quizz-app-21.png">	
 				</div>
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-6 col-sm-6" style="padding-top: 1vh;">
 					<button type="button" class="tab-relate" id="opcion1">Hidratación intensiva</button> 
 					<button type="button" class="tab-relate" id="opcion2">Protección optima frente a UVA / UVB / IR / HEV (LUZ AZUL) / EM</button>
 				</div>
 				<div class="col-md-3 col-sm-3 circle-item light-brown" id="divproducto2" data-color="light-brown" data-correct="4">
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
+					<img style="width: 100%;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 relation-items text-center">
 				<div class="col-md-3 col-sm-3 circle-item dark-green" id="divproducto3" data-color="dark-green" data-correct="2">
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-22.png">	
+					<img style="width: 100%;" src="assets/img/quizz-app-22.png">	
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<button type="button" class="tab-relate" id="opcion3">Efecto antifatiga inmediato</button>
 					<button type="button" class="tab-relate" id="opcion4">Despigmentante</button>
 				</div>
 				<div class="col-md-3 col-sm-3 circle-item dark-gray" id="divproducto4" data-color="dark-gray" data-correct="1">
-					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-23.png">
+					<img style="width: 100%;" src="assets/img/quizz-app-23.png">
 				</div>
 			</div>
 			<div id="error_relacion" style="margin-top:25px;display:none;color:red;"class="col-md-12 col-sm-12 text-center questions">

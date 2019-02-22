@@ -209,7 +209,7 @@ button:hover {
 
 .tab-relate {
   width: 90%;
-  font-size: 1.5vw;
+  font-size: 2vw;
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
@@ -256,18 +256,22 @@ button:hover {
 
 .light-green-selected{
 	background-color: #00a8a8;
+  color: white;
 }
 
 .dark-green-selected{
 	background-color: #00725b;
+  color: white;
 }
 
 .light-brown-selected{
 	background-color: #b67e62;
+  color: white;
 }
 
 .dark-gray-selected{
 	background-color: #444246;
+  color: white;
 }
 
 /* Style the buttons */
