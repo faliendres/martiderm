@@ -244,7 +244,7 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1">¿QUÉ PRODUCTOS <br><b>MARTIDERM</b>SON LOS QUE MÁS VENDES APARTE DE LAS AMPOLLAS</span>
+				<span class="title1">¿QUÉ PRODUCTOS <br><b>MARTIDERM </b>SON LOS QUE MÁS VENDES APARTE DE LAS AMPOLLAS</span>
 			</div>
 		</div>
 		<div class="row answer-container">
@@ -319,7 +319,7 @@ acné, etc…)</span>
 			<div class="col-md-12 text-center">
 				<button type="button" class="button p_9" onclick="nextPrev(1)" value="1">&nbsp;&nbsp;SI&nbsp;</button>
     			<button type="button" class="button p_9" onclick="nextPrev(1)" value="0">NO</button>
-    			<input type="hidden" name="pregunta_9" id="pregunta_9" value="1">
+    			<input type="hidden" name="pregunta_9" id="pregunta_9" value="0">
 			</div>
 		</div>
 	</div>
