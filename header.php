@@ -14,7 +14,7 @@
 	<div class="site-content">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4 logo">
+				<div class="col-md-4 logo col-sm-4 col-xs-4">
 					<img src="assets/img/logo.jpg" style="width: 100%">
 				</div>
 			</div>

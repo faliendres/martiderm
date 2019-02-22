@@ -10,8 +10,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 text-center link">
-            <h2><b><a href="steps.php">HAZ CLICK AQUÍ</a></b></h2>
+        <div class="col-md-12 text-center ">
+            <div class="spc-5"></div>
+            <a class="main-link" href="steps.php">HAZ CLICK AQUÍ</a>
         </div>
     </div>
 </form>

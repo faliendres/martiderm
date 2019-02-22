@@ -12,7 +12,7 @@
 		</div>
 		<div class="spc-5"></div>
 		<div class="row answer-container text-center" >
-			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">SI</button>
+			<button type="button" class="button p_1" onclick="nextPrev(1)" value="1">&nbsp;&nbsp;SI&nbsp;</button>
 
 			<button type="button" class="button p_1" onclick="nextPrev(1)" value="0">NO</button>
     		<input type="hidden" name="pregunta_1" id="pregunta_1" value="1">
@@ -30,7 +30,7 @@
 		<div class="row answer-container">
 			<div class="col-md-12 text-center">
 				<div class="spc-5"></div>
-				<button type="button" class="button p_2" onclick="nextPrev(1)" value="1">SI</button>
+				<button type="button" class="button p_2" onclick="nextPrev(1)" value="1">&nbsp;&nbsp;SI&nbsp;</button>
 				<button type="button" class="button p_2" onclick="nextPrev(1)" value="0">NO</button>
 				<input type="hidden" name="pregunta_2" id="pregunta_2" value="1">
 			</div>
@@ -47,16 +47,16 @@
 		<div class="row answer-container">
 			<div id="radio_container" class="col-md-12 text-center">
 				<div class="spc-2"></div>
-  				<label class="container-radio radio-inline"><span class="text100">6</span>
+  				<label class="container-radio radio-inline"><span class="text300 radio-text">6</span>
 			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="6"><span class="checkmark"></span>
 			    </label>
-			    <label class="container-radio radio-inline"><span class="text100">8</span>
+			    <label class="container-radio radio-inline"><span class="text300 radio-text">8</span>
 			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="8"><span class="checkmark"></span>
 			    </label>
-			    <label class="container-radio radio-inline"><span class="text100">12</span>
+			    <label class="container-radio radio-inline"><span class="text300 radio-text">12</span>
 			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="12"><span class="checkmark"></span>
 			    </label>
-			    <label class="container-radio radio-inline"><span class="text100">9</span>
+			    <label class="container-radio radio-inline"><span class="text300 radio-text">9</span>
 			    	<input type="radio" name="pregunta_3" class="pregunta_3" value="9"><span class="checkmark"></span>
 			    </label>
 			    <div class="spc-2"></div>
@@ -71,16 +71,17 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1"><b>Oooh...</b><br>¡RESPUESTA INCORRECTA!</span>
-				<span class="title1">¡TENEMOS 9 TIPOS DE AMPOLLAS!</span>
+				<span class="title1-bold">Oooh...</span><br>
+				<span class="title1">¡RESPUESTA INCORRECTA!</span><br>
+				<span class="title2">¡TENEMOS 9 TIPOS DE AMPOLLAS!</span>
 				<div class="spc-2"></div>
-				<div class="col-md-12 text-center">
-					<img src="assets/img/quizz-app-7.png" alt="Productos" style="max-width: 100%;">
+				<div class="col-sm-12 col-md-12 text-center">
+					<img src="assets/img/productosv2.png" alt="Productos" style="max-width: 100%;">
 				</div>
 			</div>
 		</div>
 		<div class="row answer-container">
-			<div class="spc-5"></div>
+			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
 				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
@@ -91,88 +92,17 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1"><b>¡FELICIDADES!</b><br>¡RESPUESTA CORRECTA!</span><br>
+				<span class="title1-bold">¡FELICIDADES!</span><br>
+				<span class="title1">¡RESPUESTA CORRECTA!</span><br>
 				<span class="title2">¡TENEMOS 9 TIPOS DE AMPOLLAS!</span>
 				<div class="spc-2"></div>
-				<div class="col-md-12">
-					<!--img src="assets/img/quizz-app-7.png" alt="Productos" style="max-width: 100%;"-->
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">EPIGENCE OPTIMA SPF 50+</span>
-							<span class="t2">ALIADO SMART AGING</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">SKIN COMPLEX 50+</span>
-							<span class="t2">ANTIOX INTENSIVO</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">PHOTO-AGE</span>
-							<span class="t2">SUN REPAIR</span>
-							<span class="t3">Todo tipo de piel</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">EPIGENCE OPTIMA SPF 50+</span>
-							<span class="t2">ALIADO SMART AGING</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">EPIGENCE OPTIMA SPF 50+</span>
-							<span class="t2">ALIADO SMART AGING</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">EPIGENCE OPTIMA SPF 50+</span>
-							<span class="t2">ALIADO SMART AGING</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">EPIGENCE OPTIMA SPF 50+</span>
-							<span class="t2">ALIADO SMART AGING</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">EPIGENCE OPTIMA SPF 50+</span>
-							<span class="t2">ALIADO SMART AGING</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4">
-						<div class="col-sm-1 col-md-1 col-lg-1 bg-black"></div>
-						<div class="col-sm-11 col-md-11 col-lg-11 products">
-							<span class="t1">EPIGENCE OPTIMA SPF 50+</span>
-							<span class="t2">ALIADO SMART AGING</span>
-							<span class="t3">Piel normal/seca</span>
-						</div>
-					</div>
+				<div class="col-sm-12 col-md-12 text-center">
+					<img src="assets/img/productosv2.png" alt="Productos" style="max-width: 100%;">
 				</div>
 			</div>
 		</div>
 		<div class="row answer-container">
-			<div class="spc-5"></div>
+			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
 				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
 			</div>
@@ -205,16 +135,16 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1">¿FUE <b>MARTIDERM</b> EL PRIMER<br>LABORATORIO EN LANZAR UNA<br>AMPOLLA DE <b>PROTEOGLICANO</b><br>Y <b>VITAMINA C</b>?</span>
+				<span class="title1">¿FUE <b>MARTIDERM</b> EL PRIMER LABORATORIO EN LANZAR UNA AMPOLLA DE <b>PROTEOGLICANO</b> Y <b>VITAMINA C</b>?</span>
 			</div>
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div id="radio_container_2" class="col-md-12 text-center">
-				<label class="container-radio radio-inline"><span class="text100">Verdadero</span>
+				<label class="container-radio radio-inline"><span class="text300 radio-text">Verdadero</span>
 			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="1"><span class="checkmark"></span>
 			    </label>
-			    <label class="container-radio radio-inline"><span class="text100">Falso</span>
+			    <label class="container-radio radio-inline"><span class="text300 radio-text">Falso</span>
 			    	<input type="radio" name="pregunta_5" class="pregunta_5" value="0"><span class="checkmark"></span>
 			    </label>
 			</div>
@@ -229,19 +159,15 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1"><b>Oooh...</b><br>¡RESPUESTA INCORRECTA!</span>
+				<span class="title1-bold">Oooh...</span><br>
+				<span class="title1">¡RESPUESTA INCORRECTA!</span><br>
 			</div>
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="">
-				<div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
-					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+				<div class="col-sm-12 col-md-12 text-center">
+					<img src="assets/img/texto-ampolla.png" alt="" style="max-width: 80%">
 				</div>
-				<div class="col-md-2 col-sm-2">
-					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
-				</div>
-			</div>
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="spc-5"></div>
 				<button type="button" class="button" onclick="farmacia(5)">SIGUIENTE</button>	
@@ -253,19 +179,15 @@
 	<div class="wizard-step">
 		<div class="row">
 			<div class="col-md-12 text-center questions">
-				<span class="title1"><b>¡FELICIDADES!</b><br>¡RESPUESTA CORRECTA!</span>
+				<span class="title1-bold">¡FELICIDADES!</span><br>
+				<span class="title1">¡RESPUESTA CORRECTA!</span><br>
 			</div>
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="">
-				<div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
-					<p class="parrafo">EN 1989 MARTIDERM LANZA LA<br>PRIMERA AMPOLLA DE VITAMINA<br>C Y PROTEOGLICANO CON EL<br>NOMBRE DE 'PROTEOGLICANOS'</p>
+				<div class="col-sm-12 col-md-12 text-center">
+					<img src="assets/img/texto-ampolla.png" alt="" style="max-width: 80%">
 				</div>
-				<div class="col-md-2 col-sm-2">
-					<img src="assets/img/quizz-app-14.png" alt="" style="max-width: 60%;">
-				</div>
-			</div>
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="spc-5"></div>
 				<button type="button" class="button" onclick="farmacia(4)">SIGUIENTE</button>	
@@ -283,8 +205,8 @@
 		<div class="row answer-container">
 			<input type="hidden" id="selected" name="selected" value="">
     		<input type="hidden" id="pregunta_6" name="pregunta_6" value="0">
-			
-			<div class="col-md-12 col-sm-12 relation-items">
+			<div class="spc-2"></div>
+			<div class="col-md-12 col-sm-12 relation-items text-center">
 				<div class="col-md-3 col-sm-3 circle-item light-green" id="divproducto1" data-color="light-green" data-correct="3">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
@@ -296,7 +218,7 @@
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">
 				</div>
 			</div>
-			<div class="col-md-12 col-sm-12">
+			<div class="col-md-12 col-sm-12 relation-items text-center">
 				<div class="col-md-3 col-sm-3 circle-item dark-green" id="divproducto3" data-color="dark-green" data-correct="2">
 					<img style="width: 100%; max-width: 85px;" src="assets/img/quizz-app-24.png">	
 				</div>
@@ -327,22 +249,22 @@
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="col-md-12 col-sm-12 text-center">
+			<div class="col-md-12 col-sm-12 text-center image-options">
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/16.1.png" value="1">
-					<span class="text500">CREMAS DE DÍA</span>
+					<span class="text900 image-caption">CREMAS DE DÍA</span>
 				</div>
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/16.2.png" value="2">
-					<span class="text500">CREMAS DE NOCHE</span>
+					<span class="text900 image-caption">CREMAS DE NOCHE</span>
 				</div>
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/16.3.png" value="3">
-					<span class="text500">SERUMS</span>
+					<span class="text900 image-caption">SERUMS</span>
 				</div>
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_7" src="assets/img/16.4.png" value="4">
-					<span class="text500">PRODUCTOS ESPECIFICOS</span> <span>(ej: capilar, contorno de ojos,
+					<span class="text900 image-caption">PRODUCTOS ESPECIFICOS</span> <span class="text300">(ej: capilar, contorno de ojos,
 acné, etc…)</span>
 				</div>
 			</div>
@@ -361,22 +283,22 @@ acné, etc…)</span>
 		</div>
 		<div class="row answer-container">
 			<div class="spc-2"></div>
-			<div class="col-md-12 col-sm-12 text-center">
+			<div class="col-md-12 col-sm-12 text-center image-options">
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_8" src="assets/img/opt1.png" value="1">
-					<span class="text500">RRSS</span>
+					<span class="text900 image-caption">RRSS</span>
 				</div>
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_8" src="assets/img/opt2.png" value="2">
-					<span class="text500">WHATSAPP</span>
+					<span class="text900 image-caption">WHATSAPP</span>
 				</div>
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_8" src="assets/img/opt3.png" value="3">
-					<span class="text500">MEDIOS LOCALES</span>
+					<span class="text900 image-caption">MEDIOS LOCALES</span>
 				</div>
 				<div class="col-md-3 col-sm-3">
 					<input type="image" class="p_8" src="assets/img/opt4.png" value="4">
-					<span class="text500">BOCA OREJA</span>
+					<span class="text900 image-caption">BOCA OREJA</span>
 				</div>
 			</div>
 			<input type="hidden" name="pregunta_8" id="pregunta_8" value="0">
@@ -393,8 +315,9 @@ acné, etc…)</span>
 			</div>
 		</div>
 		<div class="row answer-container">
+			<div class="spc-5"></div>
 			<div class="col-md-12 text-center">
-				<button type="button" class="button p_9" onclick="nextPrev(1)" value="1">SI</button>
+				<button type="button" class="button p_9" onclick="nextPrev(1)" value="1">&nbsp;&nbsp;SI&nbsp;</button>
     			<button type="button" class="button p_9" onclick="nextPrev(1)" value="0">NO</button>
     			<input type="hidden" name="pregunta_9" id="pregunta_9" value="1">
 			</div>

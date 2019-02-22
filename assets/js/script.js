@@ -221,6 +221,9 @@ jQuery(".p_8").on("click", function (e) {
 jQuery(".p_9").on("click", function () {
     jQuery("#pregunta_9").val(jQuery(this).val());
     $.post('db.php', $('#regForm').serialize());
+    window.setTimeout( function(){
+         window.location = "index.php";
+     }, 5000 );
 });
 
 function farmacia(pasos){

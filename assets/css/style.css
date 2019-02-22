@@ -17,6 +17,30 @@
 
 }
 
+@font-face {
+    font-family: 'Museo Sans 900';
+    src: url('museosans_900/museosans_2-webfont.woff2') format('woff2'),
+         url('museosans_900/museosans_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('museosans_300/museosans-300_0-webfont.woff2') format('woff2'),
+         url('museosans_300/museosans-300_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url('museosans_700/museosans_4-webfont.woff2') format('woff2'),
+         url('museosans_700/museosans_4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,8 +50,8 @@ body {
 }
 
 .site-content{
-	width: 500px;
-	margin: 0 auto;
+	height: 100vh;
+  overflow: auto;
 	background-color: white;
 	background-image: url('../img/quizz-app-2.jpg');
 	background-size: cover;
@@ -35,9 +59,6 @@ body {
 
 #regForm {
   
-  margin: 100px auto;
-  font-family: Raleway;
-  min-height: 500px;
 }
 
 h1 {
@@ -108,36 +129,65 @@ button:hover {
 }
 
 .button {
-	font-family: "Museo Sans 100";
-    background-color: #f9b234;
-    border: none;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-} 
+  font-family: "Museo Sans 700";
+  background-color: #f9b234;
+  border: none;
+  color: white;
+  padding: 3% 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.3%;
+  cursor: pointer;
+  font-size: 3vw;
+}
+
+.header-text {
+  margin-top: 25%;
+}
 
 .header-text .title1 {
-	font-family: 'Museo Sans 100', Arial, sans-serif;
+	font-family: 'Museo Sans 300', Arial, sans-serif;
 	color: #0e7e6a;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 7vw;
 }
 
 .header-text .title2 {
-	font-family: 'Museo Sans 500', Arial, sans-serif;
+	font-family: 'Museo Sans 900', Arial, sans-serif;
 	color: #0e7e6a;
-	font-weight: 900;
-	font-size: 24px; 
+	font-size: 7vw; 
+}
+
+.questions {
+  margin-top: 25%;
 }
 
 .questions .title1 {
-	font-family: 'Museo Sans 100', Arial, sans-serif;
-	font-size: 24px;
-	font-weight: bold;
+  font-family: 'Museo Sans 300', Arial, sans-serif;
+  font-size: 7vw;
+}
+
+.questions .title1-bold {
+  font-family: 'Museo Sans 900', Arial, sans-serif;
+  font-size: 6vw;
+}
+
+.questions .title2 {
+  font-family: 'Museo Sans 500', Arial, sans-serif;
+  font-size: 4vw;
+  color: #f9b234;
+}
+
+.main-link {
+  font-family: 'Museo Sans 700', Arial, sans-serif;
+  color: #4d4d4f;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.main-link a:focus, a:hover {
+  color: #4d4d4f;
+  text-decoration: none;
 }
 
 .tab-cover{
@@ -157,22 +207,27 @@ button:hover {
     min-height: 20px;
 }
 
-.tab-relate{
-	width: 90%;
-	font-size: 9pt;
-	border-radius: 15px 15px 15px 15px;
-	-moz-border-radius: 15px 15px 15px 15px;
-	-webkit-border-radius: 15px 15px 15px 15px;
-	border: 0px solid #f9b234;
-	background-color: #eee;
-	 padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    min-height: 20px;
-    color: black;
+.tab-relate {
+  width: 90%;
+  font-size: 1.5vw;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #f9b234;
+  background-color: #eee;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  min-height: 20px;
+  color: black;
+  font-family: 'Museo Sans 300';
+}
+
+.relation-items {
+  padding: 0 10%;
 }
 
 .circle-item{
@@ -217,22 +272,23 @@ button:hover {
 
 /* Style the buttons */
 .btn-opt {
-	width: 80%;
-	font-size: 12px;
-	border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	border: 1px solid #f9b234;
-	background-color: white;
-	 padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    min-height: 70px;
-    color: black;
-    font-family: "Museo Sans 100";
+  width: 80%;
+  font-size: 3vw;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #f9b234;
+  background-color: white;
+  height: 7vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5vh 0;
+  cursor: pointer;
+  min-height: 70px;
+  color: black;
+  font-family: "Museo Sans 100";
+  padding: 0 6%;
 }
 
 /* Style the active class, and buttons on mouse-over */
@@ -242,11 +298,11 @@ button:hover {
 }
 
 .spc-5 {
-	margin: 5em;
+	margin: 20%;
 }
 
 .spc-2 {
-	margin: 2em;
+	margin: 8%;
 }
 
 .parrafo {
@@ -268,12 +324,37 @@ button:hover {
 	max-width: 100%;
 }
 
+.p_8 {
+  border: 0px;
+  max-width: 100%;
+}
+
 .text500 {
 	font-family: 'Museo Sans 500';
 }
 
 .text100 {
 	font-family: 'Museo Sans 100';
+}
+
+.text300 {
+  font-family: 'Museo Sans 300';
+}
+
+.text900 {
+  font-family: 'Museo Sans 900';
+}
+
+.text700 {
+  font-family: 'Museo Sans 700';
+}
+
+.image-caption {
+  font-size: 1.5vw;
+}
+
+.image-options {
+  padding: 0 10vw;
 }
 
 /* Radio button */
@@ -283,7 +364,7 @@ button:hover {
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 5vw;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -297,20 +378,30 @@ button:hover {
   cursor: pointer;
 }
 
+/* Custom styles */
+.checkbox-inline + .checkbox-inline, .radio-inline + .radio-inline {
+  margin-top: 0;
+  margin-left: 8%;
+}
+
+.radio-text {
+  padding-left: 2vw;
+}
+
 /* Create a custom radio button */
 .checkmark {
   position: absolute;
-  top: 0;
+  top: 22%;
   left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
+  height: 4vw;
+  width: 4vw;
   border-radius: 50%;
+  border: 4px #f9b234 solid;
 }
 
 /* On mouse-over, add a grey background color */
 .container-radio:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #eee;
 }
 
 /* When the radio button is checked, add a blue background */
@@ -331,13 +422,13 @@ button:hover {
 }
 
 /* Style the indicator (dot/circle) */
-.container-radio .checkmark:after {
- 	top: 5px;
-	left: 5px;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background: #fcca79;
+.container-radio .checkmark::after {
+  top: 4.5%;
+  left: 4.5%;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background: #fcca79;
 }
 
 .ampolla {
