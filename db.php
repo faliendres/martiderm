@@ -17,14 +17,13 @@ if(isset($_POST)){
 						(`trabaja_farmacia`,
 						`conocias_martiderm`,
 						`tipos_ampollas`,
-						`afirmaciones_martiderm`,
 						`primer_laboratorio`,
 						`relacion_producto_descripcion`,
 						`mas_vendidos`,
 						`canal_comunicacion`,
 						`recomiendas_martiderm`,
 						`fecha_creacion`) 
-	VALUES (".$_POST['pregunta_1'].", ".$_POST['pregunta_2'].", ".$_POST['pregunta_3'].", ".$_POST['pregunta_4'].", ".$_POST['pregunta_5'].", ".$_POST['pregunta_6'].", ".$_POST['pregunta_7'].", ".$_POST['pregunta_8'].", ".$_POST['pregunta_9'].", CURRENT_TIMESTAMP)";
+	VALUES (".$_POST['pregunta_1'].", ".$_POST['pregunta_2'].", ".$_POST['pregunta_3'].", ".$_POST['pregunta_5'].", ".$_POST['pregunta_6'].", ".$_POST['pregunta_7'].", ".$_POST['pregunta_8'].", ".$_POST['pregunta_9'].", CURRENT_TIMESTAMP)";
 
 	echo $sql;
 

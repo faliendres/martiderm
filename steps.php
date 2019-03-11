@@ -83,7 +83,7 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
+				<button type="button" class="button" onclick="nextPrev(3)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
@@ -104,7 +104,7 @@
 		<div class="row answer-container">
 			<div class="spc-2"></div>
 			<div class="col-md-12 text-center">
-				<button type="button" class="button" onclick="nextPrev(1)">SIGUIENTE</button>	
+				<button type="button" class="button" onclick="nextPrev(2)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
