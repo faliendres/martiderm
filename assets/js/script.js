@@ -6,13 +6,6 @@ function showTab(n) {
   var x = document.getElementsByClassName("tab");
   x[n].style.display = "block";
   //... and fix the Previous/Next buttons:
-  
-  //if (n == (x.length - 1)) {
-  //  document.getElementById("nextBtn").innerHTML = "Submit";
-  //} else {
-  //  document.getElementById("nextBtn").innerHTML = "Next";
-  //}
-  //... and run a function that will display the correct step indicator:
   fixStepIndicator(n)
 }
 
@@ -59,43 +52,6 @@ function validateForm() {
       if(!$("#radio_container_2 input[name='pregunta_5']").is(':checked'))
         return false;
     }
-    if(y[0].name == 'selected'){
-          var val = 0;
-          var val2 = 0;
-          var btns = document.getElementsByClassName("tab-relate");
-          Object.values(btns).forEach(function(element) {
-            if( $(element).hasClass("light-green-selected")){
-              if(element.id == 'opcion3')  
-                val2++;
-              val++;
-            }
-             if( $(element).hasClass("light-brown-selected")){
-              if(element.id == 'opcion4')   
-                val2++;
-              val++;
-            }
-             if( $(element).hasClass("dark-green-selected")){
-              if(element.id == 'opcion2')  
-                val2++;
-              val++;
-            }
-            if( $(element).hasClass("dark-gray-selected")){
-              if(element.id == 'opcion1')   
-                val2++;
-              val++;
-            }
-          });
-
-          if (val2 == 4)
-              $("#pregunta_6").val(1);
-
-          if ($("#pregunta_6").val() == 0){
-            $("#error_relacion").show();
-            valid=false;
-          }
-
-    
-    }
   }
   // If the valid status is true, mark the step as finished and valid:
   if (valid) {
@@ -114,7 +70,6 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 
-// Form assignation
 jQuery(".p_1").on("click", function () {
     jQuery("#pregunta_1").val(jQuery(this).val());
 });
@@ -134,8 +89,9 @@ jQuery(".p_3").on("click", function () {
 
 
 jQuery(".circle-item").on("click", function () {
-  var btns = document.getElementsByClassName("selected");
+  var btns = document.getElementsByClassName("circle-item");
   Object.values(btns).forEach(function(element) {
+    $(element).removeClass($(element).data("color")+"-selected");
     $(element).removeClass("selected");
   });
   if(!$(this).hasClass("selected") ){
@@ -148,10 +104,7 @@ jQuery(".circle-item").on("click", function () {
 
 jQuery(".tab-relate").on("click", function () {
   var good=false;
- var btns = document.getElementsByClassName("tab-relate");
-  Object.values(btns).forEach(function(element) {
-    $(element).removeClass($('#selected').val()+"-selected");
-  });
+  var val = 0;
   if($('#selected').val() != ""){
     if($('#selected').val() == 'dark-gray' && $(this).attr("id")=='opcion1')
       good=true;
@@ -162,6 +115,7 @@ jQuery(".tab-relate").on("click", function () {
     if($('#selected').val() == 'light-brown' && $(this).attr("id")=='opcion4')
       good=true;
     if(good){
+      $(this).unbind("click");
       $(this).addClass($('#selected').val()+"-selected selected");
       $(this).attr('data-correct', $('#selected').data("correct"));
       $(this).removeData( "data-correct" );
@@ -177,6 +131,28 @@ jQuery(".tab-relate").on("click", function () {
     }
     
   }
+  
+  var btns = document.getElementsByClassName("tab-relate");
+  Object.values(btns).forEach(function(element) {
+    if( $(element).hasClass("light-green-selected")){
+      if(element.id == 'opcion3')  
+        val++;
+    }
+    if( $(element).hasClass("light-brown-selected")){
+      if(element.id == 'opcion4')   
+        val++;
+    }
+    if( $(element).hasClass("dark-green-selected")){
+      if(element.id == 'opcion2')  
+        val++;
+    }
+    if( $(element).hasClass("dark-gray-selected")){
+      if(element.id == 'opcion1')   
+        val++;
+    }
+  });
+  if (val == 4)
+    $( ".p_6" ).prop( "disabled", false );      
 });
 
 

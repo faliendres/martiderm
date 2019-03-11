@@ -230,12 +230,9 @@
 					<img style="width: 100%;" src="assets/img/quizz-app-23.png">
 				</div>
 			</div>
-			<div id="error_relacion" style="margin-top:25px;display:none;color:red;"class="col-md-12 col-sm-12 text-center questions">
-				<span class="title1">Vuelve a intentarlo</span>
-			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
 				<div class="spc-2"></div>
-				<button type="button" class="button p_6" onclick="farmacia(4)">SIGUIENTE</button>	
+				<button disabled type="button" class="button p_6" onclick="farmacia(4)">SIGUIENTE</button>	
 			</div>
 		</div>
 	</div>
