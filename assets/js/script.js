@@ -91,7 +91,10 @@ jQuery(".p_3").on("click", function () {
 jQuery(".circle-item").on("click", function () {
   var btns = document.getElementsByClassName("circle-item");
   Object.values(btns).forEach(function(element) {
-    $(element).removeClass($(element).data("color")+"-selected");
+    if(! $(element).hasClass("fijo")){
+      $(element).removeClass($(element).data("color")+"-selected");
+      
+    }
     $(element).removeClass("selected");
   });
   if(!$(this).hasClass("selected") ){
@@ -106,14 +109,26 @@ jQuery(".tab-relate").on("click", function () {
   var good=false;
   var val = 0;
   if($('#selected').val() != ""){
-    if($('#selected').val() == 'dark-gray' && $(this).attr("id")=='opcion1')
+    if($('#selected').val() == 'dark-gray' && $(this).attr("id")=='opcion1'){
       good=true;
-    if($('#selected').val() == 'dark-green' && $(this).attr("id")=='opcion2')
+      $('#divproducto4').addClass("fijo");
+      //$('#divproducto4').unbind("click");
+    }
+    if($('#selected').val() == 'dark-green' && $(this).attr("id")=='opcion2'){
       good=true;
-    if($('#selected').val() == 'light-green' && $(this).attr("id")=='opcion3')
+      $('#divproducto3').addClass("fijo");
+      //$('#divproducto3').unbind("click");
+    }
+    if($('#selected').val() == 'light-green' && $(this).attr("id")=='opcion3'){
       good=true;
-    if($('#selected').val() == 'light-brown' && $(this).attr("id")=='opcion4')
+      $('#divproducto1').addClass("fijo");
+      //$('#divproducto1').unbind("click");
+    }
+    if($('#selected').val() == 'light-brown' && $(this).attr("id")=='opcion4'){
       good=true;
+      $('#divproducto2').addClass("fijo");
+      //$('#divproducto2').unbind("click");
+    }
     if(good){
       $(this).unbind("click");
       $(this).addClass($('#selected').val()+"-selected selected");
